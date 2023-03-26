@@ -5,9 +5,7 @@ from song import Song
 class TestSong:
     '''Class "Song" in song.py'''
 
-    Song("99 Problems", "Jay Z", "Rap")
-    Song("Halo", "Beyonce", "Pop")
-    Song("Smells Like Teen Spirit", "Nirvana", "Rock")
+
 
     def test_saves_name_artist_genre(self):
         '''instantiates with a name, artist, and genre.'''
